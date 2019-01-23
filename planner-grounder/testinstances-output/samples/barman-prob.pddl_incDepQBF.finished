@@ -1,0 +1,7 @@
+parsing: 87ms
+
+grounding: 539ms
+grounding: 8314 grounded actions
+grounding: 2136 inconsistent actions (therefore ignored)
+
+csv-line: samples/barman-prob.pddl;incDepQBF (QBF preprocessor: null);;;;;;;;;;csv-line written at Planner.exitWithStatus(0), 

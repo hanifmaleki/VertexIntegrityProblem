@@ -1,0 +1,19 @@
+csv-line: samples/pathways-p.pddl;incDepQBF (QBF preprocessor: null);;;;;;;;;;
+
+exception in parser: invalid grammar (1 syntax errors)
+csv-line: samples/pathways-p.pddl;incDepQBF (QBF preprocessor: null);;;;;;;;;;csv-line written at Planner.exitWithStatus(1), csv-line: samples/pathways-p.pddl;incDepQBF (QBF preprocessor: null);;;;;;;;;;
+
+exception in parser: invalid grammar (3 syntax errors)
+csv-line: samples/pathways-p.pddl;incDepQBF (QBF preprocessor: null);;;;;;;;;;csv-line written at Planner.exitWithStatus(1), csv-line: samples/pathways-p.pddl;incDepQBF (QBF preprocessor: null);;;;;;;;;;
+
+exception in parser: invalid grammar (1 syntax errors)
+csv-line: samples/pathways-p.pddl;incDepQBF (QBF preprocessor: null);;;;;;;;;;csv-line written at Planner.exitWithStatus(1), csv-line: samples/pathways-p.pddl;incDepQBF (QBF preprocessor: null);;;;;;;;;;
+
+exception in parser: null
+csv-line: samples/pathways-p.pddl;incDepQBF (QBF preprocessor: null);;;;;;;;;;csv-line written at Planner.exitWithStatus(1), csv-line: samples/pathways-p.pddl;incDepQBF (QBF preprocessor: null);;;;;;;;;;
+
+exception in parser: invalid grammar (6 syntax errors)
+csv-line: samples/pathways-p.pddl;incDepQBF (QBF preprocessor: null);;;;;;;;;;csv-line written at Planner.exitWithStatus(1), csv-line: samples/pathways-p.pddl;incDepQBF (QBF preprocessor: null);;;;;;;;;;
+
+exception in parser: invalid grammar (5 syntax errors)
+csv-line: samples/pathways-p.pddl;incDepQBF (QBF preprocessor: null);;;;;;;;;;csv-line written at Planner.exitWithStatus(1), 

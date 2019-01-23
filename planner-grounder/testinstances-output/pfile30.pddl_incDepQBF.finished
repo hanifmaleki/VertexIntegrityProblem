@@ -1,0 +1,4 @@
+csv-line: pfile30.pddl;incDepQBF (QBF preprocessor: null);;;;;;;;;;
+
+exception in parser: domain.pddl (No such file or directory)
+csv-line: pfile30.pddl;incDepQBF (QBF preprocessor: null);;;;;;;;;;csv-line written at Planner.exitWithStatus(1), 

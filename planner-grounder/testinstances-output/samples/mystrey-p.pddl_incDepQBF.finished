@@ -1,0 +1,7 @@
+parsing: 62ms
+
+grounding: 294705ms
+grounding: 5254632 grounded actions
+grounding: 414072 inconsistent actions (therefore ignored)
+
+csv-line: samples/mystrey-p.pddl;incDepQBF (QBF preprocessor: null);;;;;;;;;;csv-line written at Planner.exitWithStatus(0), 

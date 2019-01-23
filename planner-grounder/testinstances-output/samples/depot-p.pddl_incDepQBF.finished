@@ -1,0 +1,40 @@
+parsing: 59ms
+
+csv-line: samples/depot-p.pddl;incDepQBF (QBF preprocessor: null);;;;;;;;;;
+
+exception in grounder: null
+parsing: 219ms
+
+csv-line: samples/depot-p.pddl;incDepQBF (QBF preprocessor: null);;;;;;;;;;
+
+exception in grounder: null
+parsing: 86ms
+
+csv-line: samples/depot-p.pddl;incDepQBF (QBF preprocessor: null);;;;;;;;;;
+
+exception in grounder: null
+parsing: 71ms
+
+csv-line: samples/depot-p.pddl;incDepQBF (QBF preprocessor: null);;;;;;;;;;
+
+exception in grounder: null
+parsing: 60ms
+
+csv-line: samples/depot-p.pddl;incDepQBF (QBF preprocessor: null);;;;;;;;;;
+
+exception in grounder: null
+parsing: 124ms
+
+csv-line: samples/depot-p.pddl;incDepQBF (QBF preprocessor: null);;;;;;;;;;
+
+exception in grounder: null
+parsing: 66ms
+
+csv-line: samples/depot-p.pddl;incDepQBF (QBF preprocessor: null);;;;;;;;;;
+
+exception in grounder: null
+parsing: 62ms
+
+csv-line: samples/depot-p.pddl;incDepQBF (QBF preprocessor: null);;;;;;;;;;
+
+exception in grounder: null

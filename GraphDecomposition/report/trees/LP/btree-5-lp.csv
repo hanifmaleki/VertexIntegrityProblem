@@ -1,0 +1,5 @@
+Row,Name,Size,Edges,MAX,MAX_COUNT,C,LB,Sol\_size,Timeout,Duration
+1,btree-5,31,30,3,14,3,4,4,3000,3559
+2,btree-5,31,30,3,14,4,4,4,3000,981
+3,btree-5,31,30,3,14,5,4,4,3000,1213
+4,btree-5,31,30,3,14,6,4,4,3000,825

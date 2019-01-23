@@ -1,0 +1,27 @@
+\documentclass{article}
+\usepackage[utf8]{inputenc}
+\usepackage{longtable}
+\title{Separation Heuristic Method}
+\begin{document}
+\maketitle
+Separation method is the method that try to find best subset of vertices which makes a large instance split into some new components. In this method it is tried to minimize the size of the largest component. As it is evident in the above table in some instances the number of the separation vertices is relatively is relatively great. May be finding a smaller separation which has smaller number of vertices is good idea.......
+\begin{longtable}{|l |l |l |l |l |l |l |l |l |}
+\hline
+Row&Name&Vertices&Edges&Max Deg&\#Max Deg&OP_TIME&Size&Components size\\
+\hline
+1&ns1766074.mps&282&1332&34&9&107567&27&226,29,\\
+2&noswot.mps&310&1470&25&1&192562&8&6161(2),6060(3),\\
+3&mik.250-1-100.1.mps&402&10702&101&51&1055028&100&22(51),11(200),\\
+4&enlight13.mps&507&1924&6&121&932692&25&247,210,11(25),\\
+5&timtab1.mps&568&1658&52&1&920945&35&223,212,33(12),11(62),\\
+6&enlight14.mps&588&2240&6&144&1480226&27&287,247,11(27),\\
+7&m100n500k4r1.mps&600&4000&32&1&1443063&64&421,33,11(82),\\
+8&glass4.mps&718&3630&90&1&2550400&22&129,118,31,25,2424(2),23,2222(3),2121(3),2020(3),1919(3),18,17,1616(2),8,1,\\
+9&cov1075.mps&757&28560&119&120&18383112&445&301,11,\\
+10&ran16x16.mps&800&2048&16&32&2384013&16&4949(16),\\
+11&newdano.mps&1081&4368&56&1&9787181&116&526,433,11(6),\\
+12&bienst2.mps&1081&4368&56&1&9786289&116&526,433,11(6),\\
+13&dfn-gwin-UUM.mps&1096&5264&20&45&9547066&124&317,289,49,2121(15),2,\\
+\hline
+\end{longtable}
+\end{document}

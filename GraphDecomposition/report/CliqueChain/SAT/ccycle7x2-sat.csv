@@ -1,0 +1,9 @@
+Row,Name,Size,Edges,MAX,MAX_COUNT,C,K,Sol\_size,Finished,Duration
+1,ccycle7x2,112,1330,14,28,7,7,--,true,5.948s
+2,ccycle7x2,112,1330,14,28,8,8,--,true,6.016s
+3,ccycle7x2,112,1330,14,28,9,9,--,true,6.048s
+4,ccycle7x2,112,1330,14,28,10,10,--,true,6.04s
+5,ccycle7x2,112,1330,14,28,11,11,--,true,6.088s
+6,ccycle7x2,112,1330,14,28,12,12,--,true,6.168s
+7,ccycle7x2,112,1330,14,28,13,13,--,true,6.144s
+8,ccycle7x2,112,1330,14,28,14,14,14,true,6.248s

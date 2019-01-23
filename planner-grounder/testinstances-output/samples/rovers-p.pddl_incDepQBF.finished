@@ -1,0 +1,57 @@
+csv-line: samples/rovers-p.pddl;incDepQBF (QBF preprocessor: null);;;;;;;;;;
+
+exception in parser: null
+csv-line: samples/rovers-p.pddl;incDepQBF (QBF preprocessor: null);;;;;;;;;;csv-line written at Planner.exitWithStatus(1), csv-line: samples/rovers-p.pddl;incDepQBF (QBF preprocessor: null);;;;;;;;;;
+
+exception in parser: null
+csv-line: samples/rovers-p.pddl;incDepQBF (QBF preprocessor: null);;;;;;;;;;csv-line written at Planner.exitWithStatus(1), parsing: 70ms
+
+csv-line: samples/rovers-p.pddl;incDepQBF (QBF preprocessor: null);;;;;;;;;;
+
+exception in grounder: null
+parsing: 81ms
+
+csv-line: samples/rovers-p.pddl;incDepQBF (QBF preprocessor: null);;;;;;;;;;
+
+exception in grounder: null
+parsing: 144ms
+
+csv-line: samples/rovers-p.pddl;incDepQBF (QBF preprocessor: null);;;;;;;;;;
+
+exception in grounder: null
+parsing: 71ms
+
+csv-line: samples/rovers-p.pddl;incDepQBF (QBF preprocessor: null);;;;;;;;;;
+
+exception in grounder: null
+parsing: 73ms
+
+csv-line: samples/rovers-p.pddl;incDepQBF (QBF preprocessor: null);;;;;;;;;;
+
+exception in grounder: null
+parsing: 79ms
+
+csv-line: samples/rovers-p.pddl;incDepQBF (QBF preprocessor: null);;;;;;;;;;
+
+exception in grounder: null
+csv-line: samples/rovers-p.pddl;incDepQBF (QBF preprocessor: null);;;;;;;;;;
+
+exception in parser: null
+csv-line: samples/rovers-p.pddl;incDepQBF (QBF preprocessor: null);;;;;;;;;;csv-line written at Planner.exitWithStatus(1), csv-line: samples/rovers-p.pddl;incDepQBF (QBF preprocessor: null);;;;;;;;;;
+
+exception in parser: invalid grammar (1 syntax errors)
+csv-line: samples/rovers-p.pddl;incDepQBF (QBF preprocessor: null);;;;;;;;;;csv-line written at Planner.exitWithStatus(1), parsing: 66ms
+
+csv-line: samples/rovers-p.pddl;incDepQBF (QBF preprocessor: null);;;;;;;;;;
+
+exception in grounder: null
+parsing: 62ms
+
+csv-line: samples/rovers-p.pddl;incDepQBF (QBF preprocessor: null);;;;;;;;;;
+
+exception in grounder: null
+parsing: 84ms
+
+csv-line: samples/rovers-p.pddl;incDepQBF (QBF preprocessor: null);;;;;;;;;;
+
+exception in grounder: null

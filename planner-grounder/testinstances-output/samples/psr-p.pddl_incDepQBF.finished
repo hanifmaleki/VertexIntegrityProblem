@@ -1,0 +1,7 @@
+csv-line: samples/psr-p.pddl;incDepQBF (QBF preprocessor: null);;;;;;;;;;
+
+exception in parser: invalid grammar (8 syntax errors)
+csv-line: samples/psr-p.pddl;incDepQBF (QBF preprocessor: null);;;;;;;;;;csv-line written at Planner.exitWithStatus(1), csv-line: samples/psr-p.pddl;incDepQBF (QBF preprocessor: null);;;;;;;;;;
+
+exception in parser: invalid grammar (7 syntax errors)
+csv-line: samples/psr-p.pddl;incDepQBF (QBF preprocessor: null);;;;;;;;;;csv-line written at Planner.exitWithStatus(1), 

@@ -1,0 +1,22 @@
+csv-line: samples/floor-p.pddl;incDepQBF (QBF preprocessor: null);;;;;;;;;;
+
+exception in parser: invalid grammar (4 syntax errors)
+csv-line: samples/floor-p.pddl;incDepQBF (QBF preprocessor: null);;;;;;;;;;csv-line written at Planner.exitWithStatus(1), csv-line: samples/floor-p.pddl;incDepQBF (QBF preprocessor: null);;;;;;;;;;
+
+exception in parser: invalid grammar (4 syntax errors)
+csv-line: samples/floor-p.pddl;incDepQBF (QBF preprocessor: null);;;;;;;;;;csv-line written at Planner.exitWithStatus(1), csv-line: samples/floor-p.pddl;incDepQBF (QBF preprocessor: null);;;;;;;;;;
+
+exception in parser: invalid grammar (3 syntax errors)
+csv-line: samples/floor-p.pddl;incDepQBF (QBF preprocessor: null);;;;;;;;;;csv-line written at Planner.exitWithStatus(1), parsing: 83ms
+
+grounding: 280ms
+grounding: 3484 grounded actions
+grounding: 124 inconsistent actions (therefore ignored)
+
+csv-line: samples/floor-p.pddl;incDepQBF (QBF preprocessor: null);;;;;;;;;;csv-line written at Planner.exitWithStatus(0), parsing: 82ms
+
+grounding: 307ms
+grounding: 3484 grounded actions
+grounding: 124 inconsistent actions (therefore ignored)
+
+csv-line: samples/floor-p.pddl;incDepQBF (QBF preprocessor: null);;;;;;;;;;csv-line written at Planner.exitWithStatus(0), 

@@ -1,0 +1,16 @@
+csv-line: samples/satellite-p.pddl;incDepQBF (QBF preprocessor: null);;;;;;;;;;
+
+exception in parser: invalid grammar (1 syntax errors)
+csv-line: samples/satellite-p.pddl;incDepQBF (QBF preprocessor: null);;;;;;;;;;csv-line written at Planner.exitWithStatus(1), parsing: 75ms
+
+grounding: 27ms
+grounding: 72 grounded actions
+grounding: 7 inconsistent actions (therefore ignored)
+
+csv-line: samples/satellite-p.pddl;incDepQBF (QBF preprocessor: null);;;;;;;;;;csv-line written at Planner.exitWithStatus(0), parsing: 62ms
+
+grounding: 16ms
+grounding: 72 grounded actions
+grounding: 7 inconsistent actions (therefore ignored)
+
+csv-line: samples/satellite-p.pddl;incDepQBF (QBF preprocessor: null);;;;;;;;;;csv-line written at Planner.exitWithStatus(0), 

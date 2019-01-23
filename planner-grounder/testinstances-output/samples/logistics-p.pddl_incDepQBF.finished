@@ -1,0 +1,4 @@
+csv-line: samples/logistics-p.pddl;incDepQBF (QBF preprocessor: null);;;;;;;;;;
+
+exception in parser: parent-type 'vehicle' for 'truck' not found. (is the parent-type defined before?)
+csv-line: samples/logistics-p.pddl;incDepQBF (QBF preprocessor: null);;;;;;;;;;csv-line written at Planner.exitWithStatus(1), 

@@ -1,0 +1,8 @@
+Row,Name,Size,Edges,MAX,MAX_COUNT,C,K,Sol\_size,Finished,Duration
+1,btree-8,255,254,3,126,9,9,--,true,7.852s
+2,btree-8,255,254,3,126,10,10,--,true,9.8s
+3,btree-8,255,254,3,126,11,11,--,true,20.208s
+4,btree-8,255,254,3,126,12,12,--,true,29.716s
+5,btree-8,255,254,3,126,13,13,--,true,54.036s
+6,btree-8,255,254,3,126,14,14,--,true,274.596s
+7,btree-8,255,254,3,126,15,15,15,true,4.852s

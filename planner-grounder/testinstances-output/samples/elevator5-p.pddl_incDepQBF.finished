@@ -1,0 +1,13 @@
+parsing: 111ms
+
+grounding: 75ms
+grounding: 280 grounded actions
+grounding: 20 inconsistent actions (therefore ignored)
+
+csv-line: samples/elevator5-p.pddl;incDepQBF (QBF preprocessor: null);;;;;;;;;;csv-line written at Planner.exitWithStatus(0), parsing: 69ms
+
+grounding: 40ms
+grounding: 280 grounded actions
+grounding: 20 inconsistent actions (therefore ignored)
+
+csv-line: samples/elevator5-p.pddl;incDepQBF (QBF preprocessor: null);;;;;;;;;;csv-line written at Planner.exitWithStatus(0), 

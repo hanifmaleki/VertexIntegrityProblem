@@ -1,0 +1,25 @@
+<configuration>
+
+    <appender name="FILE" class="ch.qos.logback.core.FileAppender">
+        <file>vip.log</file>
+        <append>false</append>
+        <!-- encoders are assigned the type
+             ch.qos.logback.classic.encoder.PatternLayoutEncoder by default -->
+        <encoder>
+            <pattern>%d{HH:mm:ss.SSS} [%thread] %-5level %logger{36} - %msg%n</pattern>
+        </encoder>
+    </appender>
+
+    <root level="debug">
+        <appender-ref ref="FILE" />
+    </root>
+    <logger name="org.hibernate">
+        <level value="error"/>
+    </logger>
+
+    <logger name="at.tuwien.ac.graph.lp.NSquareformulation">
+        <level value="debug"/>
+    </logger>
+
+</configuration>
+

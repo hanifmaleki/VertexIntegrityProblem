@@ -1,0 +1,13 @@
+parsing: 77ms
+
+grounding: 20ms
+grounding: 26 grounded actions
+grounding: 74 inconsistent actions (therefore ignored)
+
+csv-line: samples/tpp2-p.pddl;incDepQBF (QBF preprocessor: null);;;;;;;;;;csv-line written at Planner.exitWithStatus(0), parsing: 56ms
+
+grounding: 16ms
+grounding: 26 grounded actions
+grounding: 74 inconsistent actions (therefore ignored)
+
+csv-line: samples/tpp2-p.pddl;incDepQBF (QBF preprocessor: null);;;;;;;;;;csv-line written at Planner.exitWithStatus(0), 

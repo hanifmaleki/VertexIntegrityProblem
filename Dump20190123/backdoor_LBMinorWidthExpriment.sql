@@ -1,0 +1,52 @@
+-- MySQL dump 10.13  Distrib 5.7.23, for Linux (x86_64)
+--
+-- Host: localhost    Database: backdoor
+-- ------------------------------------------------------
+-- Server version	5.7.23-0ubuntu0.16.04.1
+
+/*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
+/*!40101 SET @OLD_CHARACTER_SET_RESULTS=@@CHARACTER_SET_RESULTS */;
+/*!40101 SET @OLD_COLLATION_CONNECTION=@@COLLATION_CONNECTION */;
+/*!40101 SET NAMES utf8 */;
+/*!40103 SET @OLD_TIME_ZONE=@@TIME_ZONE */;
+/*!40103 SET TIME_ZONE='+00:00' */;
+/*!40014 SET @OLD_UNIQUE_CHECKS=@@UNIQUE_CHECKS, UNIQUE_CHECKS=0 */;
+/*!40014 SET @OLD_FOREIGN_KEY_CHECKS=@@FOREIGN_KEY_CHECKS, FOREIGN_KEY_CHECKS=0 */;
+/*!40101 SET @OLD_SQL_MODE=@@SQL_MODE, SQL_MODE='NO_AUTO_VALUE_ON_ZERO' */;
+/*!40111 SET @OLD_SQL_NOTES=@@SQL_NOTES, SQL_NOTES=0 */;
+
+--
+-- Table structure for table `LBMinorWidthExpriment`
+--
+
+DROP TABLE IF EXISTS `LBMinorWidthExpriment`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!40101 SET character_set_client = utf8 */;
+CREATE TABLE `LBMinorWidthExpriment` (
+  `size` int(11) NOT NULL,
+  `id` bigint(20) NOT NULL,
+  PRIMARY KEY (`id`),
+  CONSTRAINT `FK_hp8guflyips2gnmhlxifijhax` FOREIGN KEY (`id`) REFERENCES `SimpleExpriment` (`id`)
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Dumping data for table `LBMinorWidthExpriment`
+--
+
+LOCK TABLES `LBMinorWidthExpriment` WRITE;
+/*!40000 ALTER TABLE `LBMinorWidthExpriment` DISABLE KEYS */;
+INSERT INTO `LBMinorWidthExpriment` VALUES (6,59),(3,60),(25,61),(3,62),(4,63),(3,64),(15,65),(4,66),(43,67),(8,68),(8,69),(12,71),(12,72),(11,73),(7,74),(8,75),(17,76),(14,77),(26,78),(12,79),(28,80),(13,81),(53,82),(5,83),(133,84),(38,85),(8,86),(36,87),(18,88),(4,89),(28,90),(23,91),(15,92),(59,93),(29,94),(45,95),(4,96),(53,97),(21,98),(17,99),(62,100),(38,101),(53,102),(49,103),(10,104),(18,105),(24,106),(29,107),(10,108),(24,109),(50,110),(37,111),(5,112),(43,113),(15,114),(39,115),(48,116),(70,117),(22,118),(29,119),(588,120),(47,121),(6,122),(19,123),(26,124),(54,125),(14,126),(29,127),(19,128),(58,129),(42,130),(26,131),(39,132),(61,133),(47,134),(14,135),(3,136),(31,137),(6,138),(440,139),(112,140),(6,141),(39,142),(39,143),(68,144),(4,492),(7,495),(9,496),(12,498),(2,508),(2,513),(2,514),(9,515),(12,516),(14,518),(1,1519),(3,1520),(3,1521),(3,1522),(2,1523),(3,1524),(5,1525),(4,1526),(3,1527),(4,1528),(6,1529),(4,1530),(35,1531),(32,1532),(5,1534),(9,1535),(23,1536),(56,1537),(2,3698),(2,3705),(2,3706),(2,3820),(2,3821),(5,4564),(7,4566),(8,4567),(0,4683),(0,4684),(0,4685),(0,4686),(0,4687),(0,4688),(2,5365),(2,5366);
+/*!40000 ALTER TABLE `LBMinorWidthExpriment` ENABLE KEYS */;
+UNLOCK TABLES;
+/*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
+
+/*!40101 SET SQL_MODE=@OLD_SQL_MODE */;
+/*!40014 SET FOREIGN_KEY_CHECKS=@OLD_FOREIGN_KEY_CHECKS */;
+/*!40014 SET UNIQUE_CHECKS=@OLD_UNIQUE_CHECKS */;
+/*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
+/*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
+/*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
+/*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
+
+-- Dump completed on 2019-01-23 15:41:01

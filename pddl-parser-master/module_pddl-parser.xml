@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="module_pddl-parser" default="compile.module.pddl-parser">
+  <dirname property="module.pddl-parser.basedir" file="${ant.file.module_pddl-parser}"/>
+  
+  <property name="module.jdk.home.pddl-parser" value="${project.jdk.home}"/>
+  <property name="module.jdk.bin.pddl-parser" value="${project.jdk.bin}"/>
+  <property name="module.jdk.classpath.pddl-parser" value="${project.jdk.classpath}"/>
+  
+  <property name="compiler.args.pddl-parser" value="-encoding UTF-8 -source 1.7 -target 1.7 ${compiler.args}"/>
+  
+  <property name="pddl-parser.output.dir" value="${module.pddl-parser.basedir}/target/classes"/>
+  <property name="pddl-parser.testoutput.dir" value="${module.pddl-parser.basedir}/target/test-classes"/>
+  
+  <path id="pddl-parser.module.bootclasspath">
+    <!-- Paths to be included in compilation bootclasspath -->
+  </path>
+  
+  <path id="pddl-parser.module.production.classpath">
+    <path refid="${module.jdk.classpath.pddl-parser}"/>
+    <path refid="library.maven:_org.antlr:antlr4-runtime:4.2.2.classpath"/>
+    <path refid="library.maven:_org.abego.treelayout:org.abego.treelayout.core:1.0.1.classpath"/>
+    <path refid="library.maven:_org.antlr:antlr4-annotations:4.2.2.classpath"/>
+    <path refid="library.maven:_com.google.guava:guava:17.0.classpath"/>
+  </path>
+  
+  <path id="pddl-parser.runtime.production.module.classpath">
+    <pathelement location="${pddl-parser.output.dir}"/>
+    <path refid="library.maven:_org.antlr:antlr4-runtime:4.2.2.classpath"/>
+    <path refid="library.maven:_org.abego.treelayout:org.abego.treelayout.core:1.0.1.classpath"/>
+    <path refid="library.maven:_org.antlr:antlr4-annotations:4.2.2.classpath"/>
+    <path refid="library.maven:_com.google.guava:guava:17.0.classpath"/>
+  </path>
+  
+  <path id="pddl-parser.module.classpath">
+    <path refid="${module.jdk.classpath.pddl-parser}"/>
+    <pathelement location="${pddl-parser.output.dir}"/>
+    <path refid="library.maven:_junit:junit:4.11.classpath"/>
+    <path refid="library.maven:_org.mockito:mockito-all:1.9.5.classpath"/>
+    <path refid="library.maven:_org.hamcrest:hamcrest-all:1.3.classpath"/>
+    <path refid="library.maven:_org.antlr:antlr4-runtime:4.2.2.classpath"/>
+    <path refid="library.maven:_org.abego.treelayout:org.abego.treelayout.core:1.0.1.classpath"/>
+    <path refid="library.maven:_org.antlr:antlr4-annotations:4.2.2.classpath"/>
+    <path refid="library.maven:_com.google.guava:guava:17.0.classpath"/>
+    <path refid="library.maven:_com.google.guava:guava-testlib:17.0.classpath"/>
+    <path refid="library.maven:_com.google.code.findbugs:jsr305:1.3.9.classpath"/>
+    <path refid="library.maven:_org.truth0:truth:0.13.classpath"/>
+  </path>
+  
+  <path id="pddl-parser.runtime.module.classpath">
+    <pathelement location="${pddl-parser.testoutput.dir}"/>
+    <pathelement location="${pddl-parser.output.dir}"/>
+    <path refid="library.maven:_junit:junit:4.11.classpath"/>
+    <path refid="library.maven:_org.mockito:mockito-all:1.9.5.classpath"/>
+    <path refid="library.maven:_org.hamcrest:hamcrest-all:1.3.classpath"/>
+    <path refid="library.maven:_org.antlr:antlr4-runtime:4.2.2.classpath"/>
+    <path refid="library.maven:_org.abego.treelayout:org.abego.treelayout.core:1.0.1.classpath"/>
+    <path refid="library.maven:_org.antlr:antlr4-annotations:4.2.2.classpath"/>
+    <path refid="library.maven:_com.google.guava:guava:17.0.classpath"/>
+    <path refid="library.maven:_com.google.guava:guava-testlib:17.0.classpath"/>
+    <path refid="library.maven:_com.google.code.findbugs:jsr305:1.3.9.classpath"/>
+    <path refid="library.maven:_org.truth0:truth:0.13.classpath"/>
+  </path>
+  
+  
+  <patternset id="excluded.from.module.pddl-parser">
+    <patternset refid="ignored.files"/>
+  </patternset>
+  
+  <patternset id="excluded.from.compilation.pddl-parser">
+    <patternset refid="excluded.from.module.pddl-parser"/>
+  </patternset>
+  
+  <path id="pddl-parser.module.sourcepath">
+    <dirset dir="${module.pddl-parser.basedir}">
+      <include name="src/main/java"/>
+      <include name="src/main/resources"/>
+    </dirset>
+  </path>
+  
+  <path id="pddl-parser.module.test.sourcepath">
+    <dirset dir="${module.pddl-parser.basedir}">
+      <include name="src/test/java"/>
+      <include name="src/test/resources"/>
+    </dirset>
+  </path>
+  
+  
+  <target name="compile.module.pddl-parser" depends="compile.module.pddl-parser.production,compile.module.pddl-parser.tests" description="Compile module pddl-parser"/>
+  
+  <target name="compile.module.pddl-parser.production" depends="register.custom.compilers" description="Compile module pddl-parser; production classes">
+    <mkdir dir="${pddl-parser.output.dir}"/>
+    <javac2 destdir="${pddl-parser.output.dir}" debug="${compiler.debug}" nowarn="${compiler.generate.no.warnings}" memorymaximumsize="${compiler.max.memory}" fork="true" executable="${module.jdk.bin.pddl-parser}/javac">
+      <compilerarg line="${compiler.args.pddl-parser}"/>
+      <bootclasspath refid="pddl-parser.module.bootclasspath"/>
+      <classpath refid="pddl-parser.module.production.classpath"/>
+      <src refid="pddl-parser.module.sourcepath"/>
+      <patternset refid="excluded.from.compilation.pddl-parser"/>
+    </javac2>
+    
+    <copy todir="${pddl-parser.output.dir}">
+      <fileset dir="${module.pddl-parser.basedir}/src/main/java">
+        <patternset refid="compiler.resources"/>
+        <type type="file"/>
+      </fileset>
+      <fileset dir="${module.pddl-parser.basedir}/src/main/resources">
+        <patternset refid="compiler.resources"/>
+        <type type="file"/>
+      </fileset>
+    </copy>
+  </target>
+  
+  <target name="compile.module.pddl-parser.tests" depends="register.custom.compilers,compile.module.pddl-parser.production" description="compile module pddl-parser; test classes" unless="skip.tests">
+    <mkdir dir="${pddl-parser.testoutput.dir}"/>
+    <javac2 destdir="${pddl-parser.testoutput.dir}" debug="${compiler.debug}" nowarn="${compiler.generate.no.warnings}" memorymaximumsize="${compiler.max.memory}" fork="true" executable="${module.jdk.bin.pddl-parser}/javac">
+      <compilerarg line="${compiler.args.pddl-parser}"/>
+      <bootclasspath refid="pddl-parser.module.bootclasspath"/>
+      <classpath refid="pddl-parser.module.classpath"/>
+      <src refid="pddl-parser.module.test.sourcepath"/>
+      <patternset refid="excluded.from.compilation.pddl-parser"/>
+    </javac2>
+    
+    <copy todir="${pddl-parser.testoutput.dir}">
+      <fileset dir="${module.pddl-parser.basedir}/src/test/java">
+        <patternset refid="compiler.resources"/>
+        <type type="file"/>
+      </fileset>
+      <fileset dir="${module.pddl-parser.basedir}/src/test/resources">
+        <patternset refid="compiler.resources"/>
+        <type type="file"/>
+      </fileset>
+    </copy>
+  </target>
+  
+  <target name="clean.module.pddl-parser" description="cleanup module">
+    <delete dir="${pddl-parser.output.dir}"/>
+    <delete dir="${pddl-parser.testoutput.dir}"/>
+  </target>
+</project>

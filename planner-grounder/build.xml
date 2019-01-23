@@ -1,0 +1,33 @@
+<project name="antlr-test" default="antlr-javaTask" basedir=".">
+	
+	<property name="build.classes" value="bin" />
+	<property name="build.lib" value="lib" />
+	<property name="java.dir" value="." />
+	<property name="manifest" value="manifest.mf" />
+	
+	<property name="antlr.grammar" value="src/UPDDL.g" />
+	<property name="antlr.dest" value="src/upddl/antlr" />
+	
+	<path id="all_libs">
+	    <fileset dir="lib">
+	        <include name="**/*.jar"/>
+	    </fileset>
+	</path>
+	
+	<target name="clean" description="cleaning...">
+		<delete dir="${build.classes}" />
+		<delete file="${antlr.dest}/UPDDLLexer.java" />
+		<delete file="${antlr.dest}/UPDDLParser.java" />
+		<delete file="${antlr.dest}/UPDDL.tokens" />
+	</target>
+	
+	<target name="antlr-javaTask">
+		<java classname="org.antlr.Tool" fork="true" failonerror="true">
+			<arg value="-verbose"/>
+			<arg value="-o"/>
+			<arg path="${antlr.dest}"/>
+			<arg path="${antlr.grammar}"/>
+			<classpath refid="all_libs"/>
+		</java>
+	</target>
+</project>

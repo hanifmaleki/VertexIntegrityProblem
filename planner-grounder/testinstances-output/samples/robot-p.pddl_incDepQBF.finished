@@ -1,0 +1,7 @@
+parsing: 100ms
+
+grounding: 17721ms
+grounding: 809100 grounded actions
+grounding: 900 inconsistent actions (therefore ignored)
+
+csv-line: samples/robot-p.pddl;incDepQBF (QBF preprocessor: null);;;;;;;;;;csv-line written at Planner.exitWithStatus(0), 

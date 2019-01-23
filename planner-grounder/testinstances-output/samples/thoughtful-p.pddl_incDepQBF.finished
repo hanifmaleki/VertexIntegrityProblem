@@ -1,0 +1,10 @@
+csv-line: samples/thoughtful-p.pddl;incDepQBF (QBF preprocessor: null);;;;;;;;;;
+
+exception in parser: samples/thoughtful-p.pddl (No such file or directory)
+csv-line: samples/thoughtful-p.pddl;incDepQBF (QBF preprocessor: null);;;;;;;;;;csv-line written at Planner.exitWithStatus(1), csv-line: samples/thoughtful-p.pddl;incDepQBF (QBF preprocessor: null);;;;;;;;;;
+
+exception in parser: predicate VALUE not found
+csv-line: samples/thoughtful-p.pddl;incDepQBF (QBF preprocessor: null);;;;;;;;;;csv-line written at Planner.exitWithStatus(1), csv-line: samples/thoughtful-p.pddl;incDepQBF (QBF preprocessor: null);;;;;;;;;;
+
+exception in parser: predicate VALUE not found
+csv-line: samples/thoughtful-p.pddl;incDepQBF (QBF preprocessor: null);;;;;;;;;;csv-line written at Planner.exitWithStatus(1), 

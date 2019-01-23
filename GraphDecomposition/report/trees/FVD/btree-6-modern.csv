@@ -1,0 +1,6 @@
+Row,Name,Size,Edges,MAX,MAX_COUNT,C,K,LB,Solution,Finished,Duration
+1,btree-6,63,62,3,30,4,4,5,--,true,1
+2,btree-6,63,62,3,30,5,5,6,--,true,5
+3,btree-6,63,62,3,30,6,6,7,--,true,7
+4,btree-6,63,62,3,30,7,7,4,4,true,2
+5,btree-6,63,62,3,30,8,8,4,4,true,3

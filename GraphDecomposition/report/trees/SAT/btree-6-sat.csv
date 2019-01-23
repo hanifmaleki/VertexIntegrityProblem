@@ -1,0 +1,6 @@
+Row,Name,Size,Edges,MAX,MAX_COUNT,C,K,Sol\_size,Finished,Duration
+1,btree-6,63,62,3,30,4,4,--,true,0.56s
+2,btree-6,63,62,3,30,5,5,--,true,0.572s
+3,btree-6,63,62,3,30,6,6,--,true,0.56s
+4,btree-6,63,62,3,30,7,7,7,true,0.604s
+5,btree-6,63,62,3,30,8,8,8,true,0.532s

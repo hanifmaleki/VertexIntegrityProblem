@@ -1,0 +1,226 @@
+parsing: 72ms
+
+grounding: 16ms
+grounding: 600 grounded actions
+grounding: 25 inconsistent actions (therefore ignored)
+
+csv-line: samples/grid-5.pddl;incDepQBF (QBF preprocessor: null);;;;;;;;;;csv-line written at Planner.exitWithStatus(0), parsing: 63ms
+
+grounding: 13ms
+grounding: 600 grounded actions
+grounding: 25 inconsistent actions (therefore ignored)
+
+csv-line: samples/grid-5.pddl;incDepQBF (QBF preprocessor: null);;;;;;;;;;csv-line written at Planner.exitWithStatus(0), parsing: 66ms
+
+grounding: 28ms
+grounding: 600 grounded actions
+grounding: 25 inconsistent actions (therefore ignored)
+
+csv-line: samples/grid-5.pddl;incDepQBF (QBF preprocessor: null);;;;;;;;;;csv-line written at Planner.exitWithStatus(0), parsing: 62ms
+
+grounding: 29ms
+grounding: 600 grounded actions
+grounding: 25 inconsistent actions (therefore ignored)
+
+csv-line: samples/grid-5.pddl;incDepQBF (QBF preprocessor: null);;;;;;;;;;csv-line written at Planner.exitWithStatus(0), parsing: 64ms
+
+grounding: 38ms
+grounding: 600 grounded actions
+grounding: 25 inconsistent actions (therefore ignored)
+
+csv-line: samples/grid-5.pddl;incDepQBF (QBF preprocessor: null);;;;;;;;;;csv-line written at Planner.exitWithStatus(0), parsing: 62ms
+
+grounding: 37ms
+grounding: 600 grounded actions
+grounding: 25 inconsistent actions (therefore ignored)
+
+csv-line: samples/grid-5.pddl;incDepQBF (QBF preprocessor: null);;;;;;;;;;csv-line written at Planner.exitWithStatus(0), parsing: 66ms
+
+grounding: 34ms
+grounding: 600 grounded actions
+grounding: 25 inconsistent actions (therefore ignored)
+
+csv-line: samples/grid-5.pddl;incDepQBF (QBF preprocessor: null);;;;;;;;;;csv-line written at Planner.exitWithStatus(0), parsing: 83ms
+
+grounding: 27073ms
+grounding: 600 grounded actions
+grounding: 25 inconsistent actions (therefore ignored)
+
+csv-line: samples/grid-5.pddl;incDepQBF (QBF preprocessor: null);;;;;;;;;;csv-line written at Planner.exitWithStatus(0), parsing: 56ms
+
+grounding: 48ms
+grounding: 600 grounded actions
+grounding: 25 inconsistent actions (therefore ignored)
+
+csv-line: samples/grid-5.pddl;incDepQBF (QBF preprocessor: null);;;;;;;;;;csv-line written at Planner.exitWithStatus(0), parsing: 74ms
+
+grounding: 163782ms
+grounding: 600 grounded actions
+grounding: 25 inconsistent actions (therefore ignored)
+
+csv-line: samples/grid-5.pddl;incDepQBF (QBF preprocessor: null);;;;;;;;;;csv-line written at Planner.exitWithStatus(0), parsing: 73ms
+
+grounding: 36ms
+grounding: 600 grounded actions
+grounding: 25 inconsistent actions (therefore ignored)
+
+csv-line: samples/grid-5.pddl;incDepQBF (QBF preprocessor: null);;;;;;;;;;csv-line written at Planner.exitWithStatus(0), parsing: 64ms
+
+grounding: 35ms
+grounding: 600 grounded actions
+grounding: 25 inconsistent actions (therefore ignored)
+
+csv-line: samples/grid-5.pddl;incDepQBF (QBF preprocessor: null);;;;;;;;;;csv-line written at Planner.exitWithStatus(0), parsing: 60ms
+
+grounding: 28ms
+grounding: 600 grounded actions
+grounding: 25 inconsistent actions (therefore ignored)
+
+csv-line: samples/grid-5.pddl;incDepQBF (QBF preprocessor: null);;;;;;;;;;csv-line written at Planner.exitWithStatus(0), parsing: 59ms
+
+grounding: 386ms
+grounding: 600 grounded actions
+grounding: 25 inconsistent actions (therefore ignored)
+
+csv-line: samples/grid-5.pddl;incDepQBF (QBF preprocessor: null);;;;;;;;;;csv-line written at Planner.exitWithStatus(0), parsing: 64ms
+
+grounding: 46ms
+grounding: 600 grounded actions
+grounding: 25 inconsistent actions (therefore ignored)
+
+csv-line: samples/grid-5.pddl;incDepQBF (QBF preprocessor: null);;;;;;;;;;csv-line written at Planner.exitWithStatus(0), parsing: 69ms
+
+csv-line: samples/grid-5.pddl;incDepQBF (QBF preprocessor: null);;;;;;;;;;
+
+exception in grounder: [Ljava.lang.Object; cannot be cast to [Ljava.lang.String;
+parsing: 63ms
+
+csv-line: samples/grid-5.pddl;incDepQBF (QBF preprocessor: null);;;;;;;;;;
+
+exception in grounder: [Ljava.lang.Object; cannot be cast to [Ljava.lang.String;
+parsing: 67ms
+
+csv-line: samples/grid-5.pddl;incDepQBF (QBF preprocessor: null);;;;;;;;;;
+
+exception in grounder: [Ljava.lang.Object; cannot be cast to [Ljava.lang.String;
+parsing: 61ms
+
+grounding: 53ms
+grounding: 600 grounded actions
+grounding: 25 inconsistent actions (therefore ignored)
+
+csv-line: samples/grid-5.pddl;incDepQBF (QBF preprocessor: null);;;;;;;;;;csv-line written at Planner.exitWithStatus(0), parsing: 66ms
+
+grounding: 57ms
+grounding: 600 grounded actions
+grounding: 25 inconsistent actions (therefore ignored)
+
+csv-line: samples/grid-5.pddl;incDepQBF (QBF preprocessor: null);;;;;;;;;;csv-line written at Planner.exitWithStatus(0), parsing: 54ms
+
+grounding: 52ms
+grounding: 600 grounded actions
+grounding: 25 inconsistent actions (therefore ignored)
+
+csv-line: samples/grid-5.pddl;incDepQBF (QBF preprocessor: null);;;;;;;;;;csv-line written at Planner.exitWithStatus(0), parsing: 63ms
+
+grounding: 53ms
+grounding: 600 grounded actions
+grounding: 25 inconsistent actions (therefore ignored)
+
+csv-line: samples/grid-5.pddl;incDepQBF (QBF preprocessor: null);;;;;;;;;;csv-line written at Planner.exitWithStatus(0), parsing: 64ms
+
+grounding: 58ms
+grounding: 600 grounded actions
+grounding: 25 inconsistent actions (therefore ignored)
+
+csv-line: samples/grid-5.pddl;incDepQBF (QBF preprocessor: null);;;;;;;;;;csv-line written at Planner.exitWithStatus(0), parsing: 60ms
+
+grounding: 66ms
+grounding: 600 grounded actions
+grounding: 25 inconsistent actions (therefore ignored)
+
+csv-line: samples/grid-5.pddl;incDepQBF (QBF preprocessor: null);;;;;;;;;;csv-line written at Planner.exitWithStatus(0), parsing: 72ms
+
+grounding: 59ms
+grounding: 600 grounded actions
+grounding: 25 inconsistent actions (therefore ignored)
+
+csv-line: samples/grid-5.pddl;incDepQBF (QBF preprocessor: null);;;;;;;;;;csv-line written at Planner.exitWithStatus(0), parsing: 77ms
+
+grounding: 70ms
+grounding: 600 grounded actions
+grounding: 25 inconsistent actions (therefore ignored)
+
+csv-line: samples/grid-5.pddl;incDepQBF (QBF preprocessor: null);;;;;;;;;;csv-line written at Planner.exitWithStatus(0), parsing: 70ms
+
+grounding: 71ms
+grounding: 600 grounded actions
+grounding: 25 inconsistent actions (therefore ignored)
+
+csv-line: samples/grid-5.pddl;incDepQBF (QBF preprocessor: null);;;;;;;;;;csv-line written at Planner.exitWithStatus(0), parsing: 72ms
+
+grounding: 71ms
+grounding: 600 grounded actions
+grounding: 25 inconsistent actions (therefore ignored)
+
+csv-line: samples/grid-5.pddl;incDepQBF (QBF preprocessor: null);;;;;;;;;;csv-line written at Planner.exitWithStatus(0), parsing: 74ms
+
+grounding: 86ms
+grounding: 600 grounded actions
+grounding: 25 inconsistent actions (therefore ignored)
+
+csv-line: samples/grid-5.pddl;incDepQBF (QBF preprocessor: null);;;;;;;;;;csv-line written at Planner.exitWithStatus(0), parsing: 63ms
+
+grounding: 88ms
+grounding: 600 grounded actions
+grounding: 25 inconsistent actions (therefore ignored)
+
+csv-line: samples/grid-5.pddl;incDepQBF (QBF preprocessor: null);;;;;;;;;;csv-line written at Planner.exitWithStatus(0), parsing: 63ms
+
+grounding: 75ms
+grounding: 600 grounded actions
+grounding: 25 inconsistent actions (therefore ignored)
+
+csv-line: samples/grid-5.pddl;incDepQBF (QBF preprocessor: null);;;;;;;;;;csv-line written at Planner.exitWithStatus(0), parsing: 66ms
+
+grounding: 67ms
+grounding: 600 grounded actions
+grounding: 25 inconsistent actions (therefore ignored)
+
+csv-line: samples/grid-5.pddl;incDepQBF (QBF preprocessor: null);;;;;;;;;;csv-line written at Planner.exitWithStatus(0), parsing: 52ms
+
+grounding: 66ms
+grounding: 600 grounded actions
+grounding: 25 inconsistent actions (therefore ignored)
+
+csv-line: samples/grid-5.pddl;incDepQBF (QBF preprocessor: null);;;;;;;;;;csv-line written at Planner.exitWithStatus(0), parsing: 57ms
+
+grounding: 70ms
+grounding: 600 grounded actions
+grounding: 25 inconsistent actions (therefore ignored)
+
+csv-line: samples/grid-5.pddl;incDepQBF (QBF preprocessor: null);;;;;;;;;;csv-line written at Planner.exitWithStatus(0), parsing: 62ms
+
+grounding: 77ms
+grounding: 600 grounded actions
+grounding: 25 inconsistent actions (therefore ignored)
+
+csv-line: samples/grid-5.pddl;incDepQBF (QBF preprocessor: null);;;;;;;;;;csv-line written at Planner.exitWithStatus(0), parsing: 60ms
+
+grounding: 70ms
+grounding: 600 grounded actions
+grounding: 25 inconsistent actions (therefore ignored)
+
+csv-line: samples/grid-5.pddl;incDepQBF (QBF preprocessor: null);;;;;;;;;;csv-line written at Planner.exitWithStatus(0), parsing: 60ms
+
+grounding: 66ms
+grounding: 600 grounded actions
+grounding: 25 inconsistent actions (therefore ignored)
+
+csv-line: samples/grid-5.pddl;incDepQBF (QBF preprocessor: null);;;;;;;;;;csv-line written at Planner.exitWithStatus(0), parsing: 54ms
+
+grounding: 74ms
+grounding: 600 grounded actions
+grounding: 25 inconsistent actions (therefore ignored)
+
+csv-line: samples/grid-5.pddl;incDepQBF (QBF preprocessor: null);;;;;;;;;;csv-line written at Planner.exitWithStatus(0), 

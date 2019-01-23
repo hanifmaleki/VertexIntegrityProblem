@@ -1,0 +1,35 @@
+parsing: 69ms
+
+grounding: 1800ms
+grounding: 50568 grounded actions
+grounding: 1204 inconsistent actions (therefore ignored)
+
+csv-line: samples/parking-p.pddl;incDepQBF (QBF preprocessor: null);;;;;;;;;;csv-line written at Planner.exitWithStatus(0), parsing: 85ms
+
+grounding: 1645ms
+grounding: 50568 grounded actions
+grounding: 1204 inconsistent actions (therefore ignored)
+
+csv-line: samples/parking-p.pddl;incDepQBF (QBF preprocessor: null);;;;;;;;;;csv-line written at Planner.exitWithStatus(0), parsing: 72ms
+
+grounding: 2224ms
+grounding: 50568 grounded actions
+grounding: 1204 inconsistent actions (therefore ignored)
+
+csv-line: samples/parking-p.pddl;incDepQBF (QBF preprocessor: null);;;;;;;;;;csv-line written at Planner.exitWithStatus(0), parsing: 86ms
+
+csv-line: samples/parking-p.pddl;incDepQBF (QBF preprocessor: null);;;;;;;;;;csv-line written at last shot (shutdown-hook), parsing: 79ms
+
+grounding: 1922ms
+grounding: 50568 grounded actions
+grounding: 1204 inconsistent actions (therefore ignored)
+
+csv-line: samples/parking-p.pddl;incDepQBF (QBF preprocessor: null);;;;;;;;;;csv-line written at Planner.exitWithStatus(0), parsing: 94ms
+
+csv-line: samples/parking-p.pddl;incDepQBF (QBF preprocessor: null);;;;;;;;;;csv-line written at last shot (shutdown-hook), parsing: 68ms
+
+grounding: 2010ms
+grounding: 50568 grounded actions
+grounding: 1204 inconsistent actions (therefore ignored)
+
+csv-line: samples/parking-p.pddl;incDepQBF (QBF preprocessor: null);;;;;;;;;;csv-line written at Planner.exitWithStatus(0), 

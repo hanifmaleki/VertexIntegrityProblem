@@ -1,0 +1,5 @@
+parsing: 154ms
+
+csv-line: samples/stack-p.pddl;incDepQBF (QBF preprocessor: null);;;;;;;;;;
+
+exception in grounder: action is already grounded. TODO build Action_Instance and add it...

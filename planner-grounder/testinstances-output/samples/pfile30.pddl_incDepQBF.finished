@@ -1,0 +1,48 @@
+parsing: 289ms
+
+csv-line: samples/pfile30.pddl;incDepQBF (QBF preprocessor: null);;;;;;;;;;
+
+grounder: file 'samples/pfile30.pddl' caused OutOfMemoryError.
+parsing: 260ms
+
+csv-line: samples/pfile30.pddl;incDepQBF (QBF preprocessor: null);;;;;;;;;;
+
+grounder: file 'samples/pfile30.pddl' caused OutOfMemoryError.
+parsing: 152ms
+
+csv-line: samples/pfile30.pddl;incDepQBF (QBF preprocessor: null);;;;;;;;;;
+
+grounder: file 'samples/pfile30.pddl' caused OutOfMemoryError.
+parsing: 147ms
+
+csv-line: samples/pfile30.pddl;incDepQBF (QBF preprocessor: null);;;;;;;;;;
+
+grounder: file 'samples/pfile30.pddl' caused OutOfMemoryError.
+parsing: 156ms
+
+csv-line: samples/pfile30.pddl;incDepQBF (QBF preprocessor: null);;;;;;;;;;
+
+grounder: file 'samples/pfile30.pddl' caused OutOfMemoryError.
+parsing: 136ms
+
+csv-line: samples/pfile30.pddl;incDepQBF (QBF preprocessor: null);;;;;;;;;;
+
+grounder: file 'samples/pfile30.pddl' caused OutOfMemoryError.
+parsing: 164ms
+
+csv-line: samples/pfile30.pddl;incDepQBF (QBF preprocessor: null);;;;;;;;;;
+
+grounder: file 'samples/pfile30.pddl' caused OutOfMemoryError.
+parsing: 178ms
+
+csv-line: samples/pfile30.pddl;incDepQBF (QBF preprocessor: null);;;;;;;;;;csv-line written at last shot (shutdown-hook), parsing: 171ms
+
+csv-line: samples/pfile30.pddl;incDepQBF (QBF preprocessor: null);;;;;;;;;;csv-line written at last shot (shutdown-hook), parsing: 173ms
+
+csv-line: samples/pfile30.pddl;incDepQBF (QBF preprocessor: null);;;;;;;;;;csv-line written at last shot (shutdown-hook), csv-line: samples/pfile30.pddl;incDepQBF (QBF preprocessor: null);;;;;;;;;;
+
+exception in parser: predicate connected not found
+csv-line: samples/pfile30.pddl;incDepQBF (QBF preprocessor: null);;;;;;;;;;csv-line written at Planner.exitWithStatus(1), csv-line: samples/pfile30.pddl;incDepQBF (QBF preprocessor: null);;;;;;;;;;
+
+exception in parser: samples/pfile30.pddl (No such file or directory)
+csv-line: samples/pfile30.pddl;incDepQBF (QBF preprocessor: null);;;;;;;;;;csv-line written at Planner.exitWithStatus(1), 
